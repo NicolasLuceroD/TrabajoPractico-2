@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header"
 import Main from "../components/Main"
-//import Footer from "../components/Footer"
+import Footer from "../components/Footer"
 import "../App.css"
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
   return <div>
     <Header/>
     <Main alumno = {alumno}/>
+    <Footer/>
     </div>
   
 }
